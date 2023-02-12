@@ -47,5 +47,7 @@ The benchmark defines:
 ## Benchmark Overview
 The data model for the TPC-DI benchmark represents a retail brokerage. OLTP data is combined with data from additional sources to create the data warehouse
 
+![](Tpc_di.png)
+
 
 

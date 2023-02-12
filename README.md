@@ -42,7 +42,10 @@ The benchmark defines:
 * Specific rules for the Historical Load and for Incremental Updates
 * Requirements for the execution, timing and reporting of the metrics
 * Methodology for the verification of the resulting data in the data warehouse
-* Disclosure and auditing requirements for the implementation and execution of the
-workload.
+* Disclosure and auditing requirements for the implementation and execution of the workload.
+
+## Benchmark Overview
+The data model for the TPC-DI benchmark represents a retail brokerage. OLTP data is combined with data from additional sources to create the data warehouse
+
 
 

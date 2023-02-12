@@ -23,3 +23,10 @@ which are characterized by:
 * Consistency requirements ensuring that the integration process results in reliable and accurate data
 * Multiple data sources having different formats
 * Multiple data tables with varied data types, attributes and inter-table relationships.
+
+
+The TPC-DI operations are modeled as follows:
+* Source data is generated using TPC provided code. The data is provided in flat files similar to the output of many extraction tools
+* Transformation of the data begins with the System Under Test (SUT) reading the Source Data
+* The transformations validate the Source Data and properly structure the data for loading into a Data Warehouse
+* The process concludes when all Source Data has been transformed and is available in the Data Warehouse

@@ -55,4 +55,8 @@ files in the Staging Area.<br>
 In the Historical Load phase of the benchmark, two other sources are used to provide information that is not directly available from the OLTP system. Financial information about companies and securities is obtained from a financial newswire (FINWIRE) service that has been
 archived over an extended period of time.
 
+## Implementation
+We modeled and implemented the TPC-DI benchmark using Talend DI and SQL Server
+
+
 

@@ -32,5 +32,17 @@ The TPC-DI operations are modeled as follows:
 * The process concludes when all Source Data has been transformed and is available in the Data Warehouse
 
 ## Objective 
-The data model for the TPC-DI benchmark represents a retail brokerage. The focus of the TPC-DI benchmark is on the processes involved in transforming data from an OLTP environment and other relevant sources such as OLAP systems, and populating a data warehouse
+The data model for the TPC-DI benchmark represents a retail brokerage. The focus of the TPC-DI benchmark is on the processes involved in transforming data from an OLTP environment and other relevant sources such as OLAP systems, and populating a data warehouse <br>
+
+The benchmark defines:
+* Multiple data source schemas and file formats
+* The Source Data generation requirements and data placement
+* The destination data warehouse schema
+* A collection of transformation rules describing how the destination data warehouse is populated with data from the data sources
+* Specific rules for the Historical Load and for Incremental Updates
+* Requirements for the execution, timing and reporting of the metrics
+* Methodology for the verification of the resulting data in the data warehouse
+* Disclosure and auditing requirements for the implementation and execution of the
+workload.
+
 

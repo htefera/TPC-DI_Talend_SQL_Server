@@ -11,4 +11,15 @@ benchmark model includes data representing an extract from an On-Line Transactio
 Processing (OTLP) system being transformed along with data from ancillary data sources
 (including tabular and hierarchical structures), and loaded into a Data Warehouse. The source
 and destination schemas, data transformations and implementation rules have been designed
-to be broadly representative of modern data integration requirements
+to be broadly representative of modern data integration requirements <br> 
+
+
+
+The benchmark exercises a breadth of system components associated with DI environments,
+which are characterized by:
+* The manipulation and loading of large volumes of data
+* A mixture of transformation types including error checking, surrogate key lookups, data type conversions, aggregation operations, data updates, etc.
+* Historical loading and incremental updates of a destination Data Warehouse using the transformed data 
+* Consistency requirements ensuring that the integration process results in reliable and accurate data
+* Multiple data sources having different formats
+* Multiple data tables with varied data types, attributes and inter-table relationships.

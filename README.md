@@ -49,5 +49,10 @@ The data model for the TPC-DI benchmark represents a retail brokerage. OLTP data
 
 ![](Tpc_di.png)
 
+There are multiple tables in the OLTP system that are extracted into a staging area; the OLTP system contains data on customers, accounts, brokers, securities, trade details, account balances, market information, and so on. Extracts from these tables are represented as flat
+files in the Staging Area.<br>
+
+In the Historical Load phase of the benchmark, two other sources are used to provide information that is not directly available from the OLTP system. Financial information about companies and securities is obtained from a financial newswire (FINWIRE) service that has been
+archived over an extended period of time.
 
 

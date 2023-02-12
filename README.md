@@ -30,3 +30,7 @@ The TPC-DI operations are modeled as follows:
 * Transformation of the data begins with the System Under Test (SUT) reading the Source Data
 * The transformations validate the Source Data and properly structure the data for loading into a Data Warehouse
 * The process concludes when all Source Data has been transformed and is available in the Data Warehouse
+
+## Objective 
+The data model for the TPC-DI benchmark represents a retail brokerage. The focus of the TPC-DI benchmark is on the processes involved in transforming data from an OLTP environment and other relevant sources such as OLAP systems, and populating a data warehouse
+

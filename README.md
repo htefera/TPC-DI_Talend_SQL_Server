@@ -56,7 +56,8 @@ In the Historical Load phase of the benchmark, two other sources are used to pro
 archived over an extended period of time.
 
 ## Implementation
-We modeled and implemented the TPC-DI benchmark using Talend DI and SQL Server
+We modeled and implemented the TPC-DI benchmark using Talend DI and SQL Server. Talend Open Studio for Data Integration is a well positioned as one of the leaders in the market for ETL, as stated by Gartner ir their 2019 Gartner Magic Quadrant for Data Integration Tools
+
 
 For modeling the database, we use the data warehouse graphical depiction provided by the TPC-DI specifications document <br>
 ![](tpcdIdw.png)

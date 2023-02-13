@@ -58,6 +58,8 @@ archived over an extended period of time.
 ## Implementation
 We modeled and implemented the TPC-DI benchmark using Talend DI and SQL Server
 
-The data warehouse graphical depiction provided by the TPC-DI specifications document
+For modeling the database, we use the data warehouse graphical depiction provided by the TPC-DI specifications document <br>
+![](tpcdIdw.png)
+
 
 

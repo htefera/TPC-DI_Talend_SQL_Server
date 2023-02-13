@@ -1,4 +1,4 @@
-## TPC Benchmark™ DI (TPC-DI) using Talend Data Integration and SQL Server
+# TPC-DI using Talend Data Integration and SQL Server
 
 ### Introduction
 
